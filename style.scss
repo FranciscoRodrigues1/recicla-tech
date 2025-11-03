@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: #dad621;
+    display: flex; //ativa as caixas flexiveis
+    justify-content: flex-start; //É o padrão , os itens são postos no começo do eixo principal
+    justify-content: flex-end; //Os itens são postos no final do eixo principal
+    justify-content: center;//Os intens são postos no meio do eixo principal
+    justify-content: space-around;//O primeiro espaço vazio e o ultimo são iguais
+    justify-content: space-evenly;// O mesmo espaçamentos entre os itens
+    justify-content: space-between;//O primeiro item fica no começo do item  e o ultimo no final do eixo
+    height: 15vh;
+    align-items: flex-start;//Os itens sãao postos no começo do eixo Y
+    align-items: flex-end;//O
+
+    h1{
+        border: solid red;
+    }
+
+    nav{
+        border: solid blue;
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+
+        a{
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: red;
+        }
+    }
+}
