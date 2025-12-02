@@ -1,34 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
   width: 100%;
-  background-color: #dad621;
+  height: 20vh;
+  background-color: #F3F5F8;
   display: flex;
-  justify-content: flex-start;
-  justify-content: flex-end;
-  justify-content: center;
-  justify-content: space-around;
-  justify-content: space-evenly;
   justify-content: space-between;
-  height: 15vh;
-  align-items: flex-start;
-  align-items: flex-end;
+  align-items: center;
 }
-header h1 {
-  border: solid red;
+header .caixaLogo {
+  display: flex;
+  justify-content: space-evenly;
+  width: 25%;
+  align-items: center;
+  gap: 2px;
+}
+header .caixaLogo h1 {
+  font-size: 35px;
+  font-weight: bold;
 }
 header nav {
-  border: solid blue;
   display: flex;
   justify-content: space-evenly;
   width: 50%;
+  align-items: center;
 }
 header nav a {
   text-decoration: none;
-  font-size: 1.5rem;
-  color: red;
+  font-size: 16px;
+  color: #4B5563;
+}
+header .btnVerdeHeader {
+  background-color: #21C05C;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.primeiraSection {
+  border: solid 2px;
+  background-color: #21C05C;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxBtnsPrimeiraSection {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
