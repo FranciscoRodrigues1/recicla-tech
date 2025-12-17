@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap');
+
 * {
 
     margin: 0;
@@ -11,16 +12,9 @@ header {
     //border: solid 2px orangered;
     width: 100%;
     height: 20vh;
-    background-color:#F3F5F8;
-    display: flex; //ativa as caixas flexiveis
-    // justify-content: flex-start; //É o padrão , os itens são postos no começo do eixo principal
-    // justify-content: flex-end; //Os itens são postos no final do eixo principal
-    // justify-content: center; //Os intens são postos no meio do eixo principal
-    //justify-content: space-around; //O primeiro espaço vazio e o ultimo são iguais
-    // justify-content: space-evenly; // O mesmo espaçamentos entre os itens
-    justify-content: space-between; //O primeiro item fica no começo do item  e o ultimo no final do eixo
-     //align-items: flex-start; //Os itens sãao postos no começo do eixo Y
-    // align-items: flex-end; //Os itens são postos no final do eixo Y
+    background-color: #F3F5F8;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 
     .caixaLogo {
@@ -28,16 +22,16 @@ header {
         //background-color: wheat;
         display: flex;
         justify-content: space-evenly;
-        width: 25%;
+        width: 20%;
         align-items: center;
-        gap: 2px;
 
-        h1{
-            font-size: 35px;
+        h1 {
+            //margin-left: 10px;
+            font-size: 2rem;
             font-weight: bold;
         }
     }
-   
+
 
     nav {
         //border: solid blue;
@@ -47,69 +41,69 @@ header {
         width: 50%;
         align-items: center;
 
-        a{
+        a {
+            //background-color: #04c9b8;
             text-decoration: none;
-            font-size: 16px;
+            font-size: 1rem;
+            font-weight: 400;
             color: #4B5563;
         }
     }
 
-        .btnVerdeHeader {
-            background-color: #21C05C;
-            color: #FFFFFF;
-            font-size: 16px;
-            padding: 18px;
-            border-radius: 6px;
-            cursor: pointer;
-        }
+    .btnVerdeHeader {
+        background-color: #21C05C;
+        color: #FFFFFF;
+        font-size: 1rem;
+        padding: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
 }
 
-    // .produtosDisponiveis {
-    //     background-color: aquamarine;
-    //     height: 85vh;
-    //     display: flex;
-    //     justify-content: space-between;
-    //     justify-content: space-around;
-    //     align-items: center;
+.primeiraSection {
+    border: solid red;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
 
-    //     article {
-    //         border: solid rgb(252, 6, 6);
-    //         width: 20%;
-    //         height: 60vh;
-    //         display: flex;
-    //         flex-direction: column;
-    //         justify-content: space-between;
-    //         align-items: center;
-    //     }
-
-    //     img {
-    //         width: 100%;
-    //         border: solid;
-    //     }
-
-    //     button {
-    //         width: 45%;
-    //         height: 5vh;
-    //         cursor: pointer;
-    //         margin-bottom: 1rem;
-    //         background-color: green;
-    //         color: aliceblue;
-    //         border-radius: 15px;
-    //     }
-
-
-    // }
-
-    .primeiraSection{
-        border: solid 2px;
-        background-color: #21C05C;
+    section {
+        background-color: #f107b7;
+        border: solid green;
+        height: 60vh;
         display: flex;
-        justify-content: center;
         flex-direction: column;
-        align-items: center;
+        justify-content: space-evenly;
         
-    }
 
-    .boxBtnsPrimeiraSection{
-       display: flex;
+        h2 {
+            //background-color: #F3F5F8;
+            font-size: 1rem;
+            font-weight: 700;
+            width: 50%;
+            border: solid 2px rgb(9, 12, 199);
+        }
+
+        p {
+            font-size: 1.25rem;
+            background-color: aqua;
+            width: 80%;
+            border: solid #ffee00;
+        }
     }
+}
+
+.boxBtnsPrimeiraSection {
+
+    border: solid purple;
+    background-color: #4B55;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+    button {
+        cursor: pointer;
+        padding: 30px 40px;
+    }
+}

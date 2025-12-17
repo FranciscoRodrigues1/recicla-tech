@@ -11,18 +11,17 @@ header {
   height: 20vh;
   background-color: #F3F5F8;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 header .caixaLogo {
   display: flex;
   justify-content: space-evenly;
-  width: 25%;
+  width: 20%;
   align-items: center;
-  gap: 2px;
 }
 header .caixaLogo h1 {
-  font-size: 35px;
+  font-size: 2rem;
   font-weight: bold;
 }
 header nav {
@@ -33,27 +32,56 @@ header nav {
 }
 header nav a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 400;
   color: #4B5563;
 }
 header .btnVerdeHeader {
   background-color: #21C05C;
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 18px;
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 .primeiraSection {
-  border: solid 2px;
-  background-color: #21C05C;
+  border: solid red;
+  background-color: red;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  height: 80vh;
+}
+.primeiraSection section {
+  background-color: #f107b7;
+  border: solid green;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.primeiraSection section h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  width: 50%;
+  border: solid 2px rgb(9, 12, 199);
+}
+.primeiraSection section p {
+  font-size: 1.25rem;
+  background-color: aqua;
+  width: 80%;
+  border: solid #ffee00;
 }
 
 .boxBtnsPrimeiraSection {
+  border: solid purple;
+  background-color: rgba(68, 187, 85, 0.3333333333);
+  width: 50%;
   display: flex;
+  justify-content: space-around;
+}
+.boxBtnsPrimeiraSection button {
+  cursor: pointer;
+  padding: 30px 40px;
 }/*# sourceMappingURL=style.css.map */
