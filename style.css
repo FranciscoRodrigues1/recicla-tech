@@ -119,7 +119,7 @@ header .btnVerdeHeader {
 }
 
 .sectionComoFunciona {
-  background-color: #F0FDF4;
+  background-color: #FFFFFF;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -133,39 +133,43 @@ header .btnVerdeHeader {
 }
 
 .divComoFunciona {
-  border: solid 2px yellow;
   display: flex;
   flex-direction: column;
   height: 25%;
   justify-content: space-around;
+  padding-left: 7%;
 }
 
 .sectionArticle {
   height: 50%;
-  border: solid 2px red;
   display: flex;
   justify-content: space-evenly;
 }
 
 .cardsArticle {
-  border: solid 2px;
   background-color: #F3F5F8;
-  width: 40%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   border-radius: 10px;
 }
 .cardsArticle p {
+  padding-left: 50px;
   font-size: 1rem;
 }
 .cardsArticle ul {
   font-size: 1rem;
   font-weight: 700;
+  width: 80%;
+  padding-left: 15%;
 }
 
 .subtitulosArticle {
+  justify-content: space-evenly;
+  width: 55%;
   display: flex;
+  align-items: center;
 }
 .subtitulosArticle .doadores {
   font-size: 1.5rem;
@@ -174,4 +178,58 @@ header .btnVerdeHeader {
 .subtitulosArticle .adquirentes {
   font-size: 1.5rem;
   color: #2563EB;
+}
+
+.produtosDisponiveis {
+  height: 100vh;
+  background-color: #F3F5F8;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulosProdutos {
+  height: 30%;
+  width: 50%;
+  background-color: #2563EB;
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.titulosProdutos h4 {
+  font-size: 2rem;
+}
+.titulosProdutos p {
+  font-size: 1.15rem;
+}
+
+.cardsProdutosDisponiveis {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  height: 60%;
+}
+
+.cards {
+  border: solid 2px #16A34A;
+  background-color: #FFFFFF;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.cards img {
+  width: 100%;
+  height: 40%;
+}
+.cards button {
+  background-color: #16A34A;
+  color: #FFFFFF;
+  height: 7vh;
+  width: 60%;
+  padding: 5px 10px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border-style: none;
 }/*# sourceMappingURL=style.css.map */

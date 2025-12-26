@@ -151,76 +151,149 @@ header {
             font-size: 2rem;
         }
 
-        p{
+        p {
             font-size: 1rem;
         }
 
     }
 }
 
-.sectionComoFunciona{
-    background-color: #F0FDF4;
+.sectionComoFunciona {
+    background-color: #FFFFFF;
     //padding-left: 50px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
-    h3{
+    h3 {
         font-size: 2.5rem;
     }
 
-    p{
+    p {
         font-size: 1.5rem;
     }
 }
 
-.divComoFunciona{
-    border: solid 2px yellow;
+.divComoFunciona {
+    //border: solid 2px yellow;
     display: flex;
     flex-direction: column;
     height: 25%;
     justify-content: space-around;
+    padding-left: 7%;
 
 }
 
 .sectionArticle {
     height: 50%;
-    border: solid 2px red;
+    //border: solid 2px red;
     display: flex;
     justify-content: space-evenly;
 }
 
-.cardsArticle{
-    border: solid 2px;
+.cardsArticle {
+    //border: solid 2px;
     background-color: #F3F5F8;
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     border-radius: 10px;
 
-    p{
+    p {
+        //background-color: #21C05C;
+        padding-left: 50px;
         font-size: 1rem;
     }
 
-    ul{
+    ul {
+        // background-color: #4B5563;
         font-size: 1rem;
         font-weight: 700;
+        width: 80%;
+        padding-left: 15%;
     }
-   
+
 }
 
 .subtitulosArticle {
+    //background-color: yellow;
+    justify-content: space-evenly;
+    width: 55%;
     display: flex;
+    align-items: center;
 
     .doadores {
         font-size: 1.5rem;
         color: #16A34A;
     }
 
-    .adquirentes{
+    .adquirentes {
         font-size: 1.5rem;
         color: #2563EB;
+    }
+}
+
+.produtosDisponiveis {
+    height: 100vh;
+    background-color: #F3F5F8;
+    display: flex;
+    flex-direction: column;
+    //justify-content;
+}
+
+.titulosProdutos {
+    height: 30%;
+    width: 50%;
+    background-color: #2563EB;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-evenly;
+
+
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.15rem;
+    }
+}
+
+.cardsProdutosDisponiveis {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    height: 60%;
+}
+
+.cards {
+    border: solid 2px #16A34A;
+    background-color: #FFFFFF;
+    width: 20%;
+    //height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: 40%;
+    }
+
+    button {
+       background-color: #16A34A;
+       color: #FFFFFF;
+       height: 7vh;
+       width: 60%;
+       padding: 5px 10px;
+       margin-bottom: 1rem;
+       border-radius: 5px;
+       border-style: none;
     }
 }
